@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+ 
+<head>
+  <meta charset="utf-8">
+  <title>Calculator</title>
+  <link rel="icon" href="textures/calculator-flat.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+ 
+<body>
+
+<table class="calculator" >
+  <tr>
+    <td colspan="3"> <input class="display-box" type="text" id="result" disabled /> </td>
+    <!-- Clear Butt -->
+    <td> <input type="button" value="C" onclick="clearScreen(); audio3.play()" id="btn" /> </td>
+  </tr>
+  <tr>
+    <!-- Collumns of the numbers -->
+    <td> <input type="button" value="1" onclick="display('1'); audio.play()" /> </td>
+    <td> <input type="button" value="2" onclick="display('2'); audio.play()" /> </td>
+    <td> <input type="button" value="3" onclick="display('3'); audio.play()" /> </td>
+    <td> <input type="button" value="/" onclick="display('/'); audio.play()" /> </td>
+  </tr>
+  <tr>
+    <td> <input type="button" value="4" onclick="display('4'); audio.play()" /> </td>
+    <td> <input type="button" value="5" onclick="display('5'); audio.play()" /> </td>
+    <td> <input type="button" value="6" onclick="display('6'); audio.play()" /> </td>
+    <td> <input type="button" value="-" onclick="display('-'); audio.play()" /> </td>
+  </tr>
+  <tr>
+    <td> <input type="button" value="7" onclick="display('7'); audio.play()" /> </td>
+    <td> <input type="button" value="8" onclick="display('8'); audio.play()" /> </td>
+    <td> <input type="button" value="9" onclick="display('9'); audio.play()" /> </td>
+    <td> <input type="button" value="+" onclick="display('+'); audio.play()" /> </td>
+  </tr>
+  <tr>
+    <td> <input type="button" value="." onclick="display('.'); audio.play()" /> </td>
+    <td> <input type="button" value="0" onclick="display('0'); audio.play()" /> </td>
+    <!-- Caalc Button -->
+    <td> <input type="button" value="=" onclick="calculate(); audio2.play()" id="btn" /> </td>
+    <td> <input type="button" value="*" onclick="display('*'); audio.play()" /> </td>
+  </tr>
+</table>
+ 
+<script type="text/javascript" src="script.js"></script>
+ 
+</body>
+ 
+</html>
