@@ -13,10 +13,10 @@ function calculate() {
     document.getElementById("result").value = q;
 }
 const audio = new Audio();
-audio.src = "/sound/click.mp3";
+audio.src = "sound/click.mp3";
 
 const audio2 = new Audio();
-audio2.src = "/sound/finish.mp3";
+audio2.src = "sound/finish.mp3";
 
 const audio3 = new Audio();
-audio3.src = "/sound/delete.mp3";
+audio3.src = "sound/delete.mp3";

@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&family=Rubik:wght@500&display=swap');
 
 html{
-    background-image: url(/textures/desk.png);
+    background-image: url(textures/desk.png);
     background-position:center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -14,7 +14,7 @@ html{
     width: 250px;
     margin-top:15%;
     margin-left: 25%;
-    background-image: url(/textures/metal.jpg);
+    background-image: url(textures/metal.jpg);
     background-size: contain;
     outline-color: #222024;
     outline-style: groove;
@@ -41,7 +41,7 @@ input[type=button] {
     font-family: 'Chakra Petch', sans-serif;
     font-weight:800;
     font-size: 19px;
-    background-image: url(/textures/white.jpg);
+    background-image: url(textures/white.jpg);
     background-size: contain;
     color: rgb(0, 0, 0);
     border: solid black 0.5px;
